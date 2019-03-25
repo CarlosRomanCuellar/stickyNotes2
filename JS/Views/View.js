@@ -54,7 +54,6 @@ function View(){
         else if(name == 'notesInHistory'){
             // deadNotes = modelFromPresenter;
         }
-        
     }
 
     //bind events

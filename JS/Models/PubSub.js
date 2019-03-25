@@ -25,7 +25,6 @@ function PubSub(){
   };
 }
 
-
 /*
 pubsub = events 
 pubsub.subscribe = on

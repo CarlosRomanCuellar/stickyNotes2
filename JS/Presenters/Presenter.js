@@ -18,12 +18,10 @@ function Presenter(){
     pubsub.subscribe('UnDo' , rollBack);
     pubsub.subscribe('newOrder', reorganize);
     
-
     var notes = [];
     var deadNotes = [];
     var oldActives = [], oldHistorical = [];
     
-
     function deleteFromModel (ev) {
         
         const target = ev.target;
@@ -213,7 +211,6 @@ function Presenter(){
             while(oldHistorical.length > 4){
                 oldHistorical.shift();
             }
-           
         }
     }
 };

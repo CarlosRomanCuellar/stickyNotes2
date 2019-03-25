@@ -27,5 +27,4 @@ function Model(){
             pubsub.publish('showModel', [] , modelName);
         }
     }
-
 }
