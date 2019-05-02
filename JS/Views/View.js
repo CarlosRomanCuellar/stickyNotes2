@@ -8,7 +8,7 @@ function View(){
     const btnShow = document.getElementById('showBtn');
     const btnAdd = document.getElementById('addBtn');
     const btnShowHistory = document.getElementById('historicalBtn');
-
+    let lista = new ele
     //auxiliars
     let historicalIsShowing = false;
     let notesAlive = 0;

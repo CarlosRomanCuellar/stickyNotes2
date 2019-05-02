@@ -25,9 +25,6 @@ function NoteFactory(template, note, status) {
             text.readOnly = true;
             fullNote.readOnly = true;
         }
-
-       
         
-
         return docFragment;
 }
